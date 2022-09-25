@@ -1,0 +1,232 @@
+body {
+  background-color: #f2dec4;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  top: -3%;
+  left: 0%;
+  width: 100%;
+  z-index: 1000;
+  padding-top: 0;
+}
+
+.menu ul {
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4e4cf;
+  color: #401201;
+  list-style: none;
+}
+
+.menu li {
+  font-size: 1.3em;
+  margin-right: 10%;
+}
+
+.menu li a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  color: #401201;
+}
+
+.caixa-logo {
+  float: left;
+}
+
+.caixa-org-lac-veg {
+  float: left;
+  margin-top: 10em;
+  margin-left: 5em;
+}
+
+.logo-sorvetes-brasil {
+  width: 30em;
+  height: 30em;
+  margin-left: 1em;
+}
+.organico {
+  width: 10em;
+  height: 10em;
+}
+
+.lactose {
+  width: 10em;
+  height: 10em;
+}
+
+.vegano {
+  width: 10em;
+  height: 10em;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background-color: #732c02;
+  margin-left: -1em;
+  padding-bottom: 5%;
+}
+footer p {
+  text-align: center;
+  color: #f4e4cf;
+  font-size: 1.2em;
+  padding-top: 0.9%;
+}
+
+.facebook {
+  width: 3%;
+  height: 3%;
+  margin-right: 3%;
+}
+.instagram {
+  width: 3%;
+  height: 3%;
+  margin-right: 3%;
+}
+.whatsapp {
+  width: 3%;
+  height: 3%;
+  margin-right: 3%;
+}
+
+/* Conteúdo Nossa História*/
+
+.historia-sorvetes-brasil {
+  width: 80em;
+  border-radius: 20px;
+  margin-left: 1em;
+}
+
+.franquias {
+  width: 80em;
+  border-radius: 20px;
+  margin-left: -1em;
+}
+
+@media (max-width: 450px) {
+  body {
+    background-color: #f2dec4;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  .menu {
+    position: fixed;
+    top: -4%;
+    left: 0%;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 0;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    background-color: #f4e4cf;
+    color: #401201;
+  }
+
+  .menu li {
+    font-size: 0.7em;
+    list-style: none;
+    margin-right: 3em;
+  }
+
+  .menu li a {
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .caixa-logo {
+    float: left;
+  }
+
+  .caixa-org-lac-veg {
+    float: left;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+  }
+
+  .logo-sorvetes-brasil {
+    width: 18em;
+    height: 18em;
+    margin-left: 2em;
+    margin-top: 2%;
+  }
+  .organico {
+    width: 5em;
+    height: 5em;
+  }
+
+  .lactose {
+    width: 5em;
+    height: 5em;
+  }
+
+  .vegano {
+    width: 5em;
+    height: 5em;
+  }
+
+  footer p {
+    height: 1em;
+    width: 30em;
+    margin-left: -1em;
+    margin-bottom: -1em;
+    text-align: center;
+    justify-content: center;
+    background-color: #732c02;
+    color: #f4e4cf;
+    font-size: 0.8em;
+    padding-top: 10px;
+  }
+
+  .facebook {
+    width: 40px;
+    height: 40px;
+    margin-right: 3%;
+  }
+  .instagram {
+    width: 40px;
+    height: 40px;
+    margin-right: 3%;
+  }
+  .whatsapp {
+    width: 40px;
+    height: 40px;
+    margin-right: 3%;
+  }
+
+  /* Conteúdo Nossa História*/
+
+  .historia-sorvetes-brasil {
+    width: 26em;
+    border-radius: 20px;
+    margin-left: -1em;
+  }
+
+  .franquias {
+    width: 24em;
+    border-radius: 20px;
+    margin-left: -1em;
+  }
+}

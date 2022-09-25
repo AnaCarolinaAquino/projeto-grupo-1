@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="contato.html">Fale Conosco</a></li>
+      </ul>
+    </div>
+
+    <div class="formulario">
+      <h2>Entre em Contato Conosco:</h2>
+      <h3>Nome:</h3>
+      <input type="text" placeholder="Digite o seu nome completo" />
+      <h3>E-mail:</h3>
+      <input type="text" placeholder="Digite aqui o seu e-mail" />
+      <h3>Assunto:</h3>
+      <select name="Assunto" id="">
+        <option value="sugest">Sugestão</option>
+        <option value="reclam">Reclamação</option>
+        <option value="duvida">Dúvida</option>
+        <option value="outro">Outros</option>
+      </select>
+      <h3>Mensagem:</h3>
+      <textarea
+        name=""
+        id=""
+        cols="50"
+        rows="10"
+        placeholder="Escreva aqui sua mensagem"
+      ></textarea>
+      <br />
+      <button onclick="msg()">Enviar</button>
+    </div>
+
+    <script>
+      function msg() {
+        alert('Mensagem Enviada com Sucesso!');
+      }
+    </script>
+
+    <footer>
+      <p>
+        © Sorvetes Brasil
+        <img
+          class="facebook"
+          src="imagens/facebook.webp"
+          alt="símbolo facebook"
+        /><img
+          class="whatsapp"
+          src="imagens/whatsapp.webp"
+          alt="símbolo whatsapp"
+        /><img
+          class="instagram"
+          src="imagens/instagram.webp"
+          alt="símbolo instagram"
+        />
+      </p>
+    </footer>
+  </body>
+</html>
