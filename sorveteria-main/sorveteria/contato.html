@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fale Conosco</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contato.css" />
+  
   </head>
   <body>
     <div class="menu">
@@ -16,36 +17,58 @@
         <li><a href="contato.html">Fale Conosco</a></li>
       </ul>
     </div>
+    <div class="container-logo-org-lact-veg">
+      <div class="caixa-logo">
+        <img
+          class="logo-sorvetes-brasil"
+          src="imagens/logo-fundo-transparente.png"
+          alt="Logo Sorvetes Brasil"
+        />
+      </div>
+      <div class="caixa-org-lac-veg">
+        <img class="organico" src="imagens/organico.png" alt="100% Orgânico" />
+        <img class="lactose" src="imagens/lactose.png" alt="Sem Lactose" />
+        <img class="vegano" src="imagens/vegano.png" alt="100% Vegano" />
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <div class="formulario">
-      <h2>Entre em Contato Conosco:</h2>
-      <h3>Nome:</h3>
-      <input type="text" placeholder="Digite o seu nome completo" />
-      <h3>E-mail:</h3>
-      <input type="text" placeholder="Digite aqui o seu e-mail" />
-      <h3>Assunto:</h3>
-      <select name="Assunto" id="">
-        <option value="sugest">Sugestão</option>
-        <option value="reclam">Reclamação</option>
-        <option value="duvida">Dúvida</option>
-        <option value="outro">Outros</option>
-      </select>
-      <h3>Mensagem:</h3>
-      <textarea
-        name=""
-        id=""
-        cols="50"
-        rows="10"
-        placeholder="Escreva aqui sua mensagem"
-      ></textarea>
-      <br />
-      <button onclick="msg()">Enviar</button>
+    <form action="" class="formulario">
+      <h2>Entre em Contato Conosco:</h2>  
+      <div class="formulario">
+          <label for="">Nome:</label>
+          <input type="text" name="" id="" required placeholder="Digite aqui o seu nome">
+      </div>
+      
+      <div class="formulario">
+          <label for="">E-mail:</label>
+          <input type="email" name="" id="" required placeholder="Digite aqui o seu e-mail">
+      </div>
+
+      <div class="formulario">
+          <label for="">Assunto:</label>
+          <select name="Assunto" id="">
+              <option value="sugest">Sugestão</option>
+              <option value="reclam">Reclamação</option>
+              <option value="duvida">Dúvida</option>
+              <option value="outro">Outros</option>
+          </select>
+      </div>
+
+      <div class="formulario">
+          <label for="">Mensagem:</label> <br><br>
+          <textarea name="" id="" cols="50" rows="10" required placeholder="Escreva aqui sua mensagem"></textarea>
+          <br>
+          <input type="submit" value="Enviar" class="submit" onclick="msg()">
+     </div>        
+    </form>
     </div>
 
     <script>
-      function msg() {
+      /*function msg() {
         alert('Mensagem Enviada com Sucesso!');
-      }
+      }*/
     </script>
 
     <footer>
