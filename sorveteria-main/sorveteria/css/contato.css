@@ -101,6 +101,30 @@ footer p {
   margin-right: 3%;
 }
 
+/*Formulário da Página Contato*/
+div .formulario{
+  margin: 1rem;
+  color: #401201;
+  font-size: 1.5rem;
+}
+
+input, select{
+  width: 20%;
+  height: 1.5rem;
+}
+
+form{
+  text-align: center;
+}
+
+input.submit{
+  background-color: #732c02;
+  color: #f2dec5;
+  border-radius: 5%;
+  width: 10%;
+  height: 2rem;
+}
+
 @media (max-width: 450px) {
   body {
     background-color: #f2dec4;
