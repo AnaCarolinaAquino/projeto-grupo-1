@@ -38,17 +38,18 @@
       <h2>Entre em Contato Conosco:</h2>  
       <div class="formulario">
           <label for="">Nome:</label>
-          <input type="text" name="" id="" required placeholder="Digite aqui o seu nome">
+          <input type="text" name="" id="nome" required placeholder="Digite aqui o seu nome">
       </div>
       
       <div class="formulario">
           <label for="">E-mail:</label>
-          <input type="email" name="" id="" required placeholder="Digite aqui o seu e-mail">
+          <input type="email" name="" id="email" required placeholder="Digite aqui o seu e-mail">
       </div>
 
       <div class="formulario">
           <label for="">Assunto:</label>
-          <select name="Assunto" id="">
+          <select name="Assunto" id="assunto">
+              <option value="infor">Informação</option>
               <option value="sugest">Sugestão</option>
               <option value="reclam">Reclamação</option>
               <option value="duvida">Dúvida</option>
@@ -58,18 +59,14 @@
 
       <div class="formulario">
           <label for="">Mensagem:</label> <br><br>
-          <textarea name="" id="" cols="50" rows="10" required placeholder="Escreva aqui sua mensagem"></textarea>
+          <textarea name="" id="mensagem" cols="50" rows="10" required placeholder="Escreva aqui sua mensagem"></textarea>
           <br>
           <input type="submit" value="Enviar" class="submit" onclick="msg()">
      </div>        
     </form>
     </div>
 
-    <script>
-      /*function msg() {
-        alert('Mensagem Enviada com Sucesso!');
-      }*/
-    </script>
+    <script src="js/contato.js"></script>
 
     <footer>
       <p>
